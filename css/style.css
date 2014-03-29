@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("font-awesome.min.css");
+*, html{padding:0; margin:0; /*transition:all .5s ease; -moz-transition:all .5s ease; -webkit-transition:all .5s ease;*/}
+ul, li, ol{list-style:none;}
+
+body, input, textarea, select, pre, span{font:12px Arial, Helvetica, sans-serif; color:#555;}
+body{background:#fafafa;}
+.clearfix:after{content:""; display:block; height:0; clear:both; width:100%;}
+.wrapper{margin:auto; padding:0 60px;}
+
+#header{box-shadow:0 0 5px #ccc; -moz-box-shadow:0 0 5px #ccc; -webkit-box-shadow:0 0 5px #ccc; margin-bottom:20px;}
+#logo, .primary-menu{display:inline-block;}
+.primary-menu{text-align:right; float:right;}
+.primary-menu ul li{display:inline-block; font-size:16px;}
+.primary-menu ul li a{display:block; padding:34px 15px; color:#555; text-decoration:none;}
+.primary-menu ul li a:hover{color:#00b5ce;}
+.primary-menu ul li a.active, .primary-menu ul li a:active{color:#464646;}
+
+.block{clear:both; margin:10px 0;}
+.block h2{font-size:18px; margin-bottom:10px;}
+.block p{margin:10px 0; position:relative; padding:10px 0 10px 65px;}
+.block p .comment-count{height:55px; width:55px; text-align:center; cursor:pointer; position:relative; display:inline-block; float:left; margin-left:-60px; vertical-align:top; color:#fff; line-height:40px; font-weight:bold;}
+.block p .comment-count i{position:absolute; left:3px; top:-5px; color:#454545; z-index:-1; text-shadow:0 0 5px #ccc; -moz-text-shadow:0 0 5px #ccc; -webkit-text-shadow:0 0 5px #ccc;}
+
+.form-element, .form-actions{margin:10px 0;}
+label{font-weight:bold;}
+.form-textarea,
+.form-text{padding:5px; width:99%; border:1px solid #ccc; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+.form-textarea.error, .form-text.error{border-color:#ffa1a1;}
+.form-submit{padding:5px; font-size:11px; font-weight:bold; text-transform:uppercase; cursor:pointer; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+.comments{display:block; clear:both;}
+.comment-list{display:block; margin:10px 0; display:none;}
+.comments .comment-row{padding:5px; display:block;}
+.comments .comment-row:nth-child(2n){background:#f9f9f9;}
+.comments .comment-row:nth-child(2n+1){background:#f4f4f4;}
+.view-comments{color:#00b5ce; text-decoration:none;}
+.view-comments:after{content:""; display:block; height:10px; clear:both; width:100%;}
+.time-stamp{display:block; padding:5px 0; font-size:11px; color:#999;}
